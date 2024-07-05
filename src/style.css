@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.radial {
+	background: radial-gradient(#F3A073, #E04C26 50%);
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 23px -1px rgba(0, 0, 0, 0.75);
+}
